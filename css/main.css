@@ -74,7 +74,7 @@ img{
 .header {
 	width: 100%;
 	height: 160px;
-	background: url(../images/header.png) no-repeat;
+	background: url(https://img.alicdn.com/imgextra/i4/3832963542/O1CN011c2HJzV259X855l_!!3832963542.png) no-repeat;
 }
 
 .header .sitename h1{
@@ -389,7 +389,7 @@ img{
 .footer {
 	width: 100%;
 	height: 245px;
-	background: url(../images/footbg.gif);
+	background: url(https://img.alicdn.com/imgextra/i2/3832963542/O1CN011c2HJxKzkFcSG4u_!!3832963542.gif);
 }
 
 .footer img {
@@ -405,7 +405,7 @@ img{
 }
 
 .footer .copyright {
-	background: url(../images/biaoshi.gif) no-repeat;
+	background: url(https://img.alicdn.com/imgextra/i3/3832963542/O1CN011c2HJxKy0ApFsEW_!!3832963542.gif) no-repeat;
 	height: 33px;
 	line-height: 33px;
 }
