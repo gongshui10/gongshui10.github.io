@@ -6,8 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>2018二次供水设备排名_供水设备哪家好_供水设备十大品牌排行榜</title>
 <meta name="keywords" content="供水设备排名,供水设备哪家好,供水设备十大品牌" />
-<meta name="description" content="2018供水设备十大品牌排行榜，是由品牌信用指数及几十项数据统计计算系统自动生成的，供水设备行业数据前十名，供水设备10大品牌，二次供水设备十大品牌。
-" />
+<meta name="description" content="2018供水设备十大品牌排行榜，是由品牌信用指数及几十项数据统计计算系统自动生成的，供水设备行业数据前十名，供水设备10大品牌，二次供水设备十大品牌。" />
 <base href="https://gongshui10.github.io/" />
 <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 <link href="css/bootstrap.css?v=20180908" rel="stylesheet">
@@ -245,7 +244,6 @@
   </div>    
 </div>
 
-
 <div class="comment" id="comment">
   <div class="container">
     <div class="title">
@@ -261,7 +259,8 @@
           <li>北京威派格：质量中等，价格中等，口碑中等，主要致力于智慧水务。</li>
         </ul>
       </div>
-      <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+      <div id="comments"></div>
+      <noscript> 为正常使用评论功能请激活JavaScript</noscript>
     </div>
     <div class="text" >
         <div>投票评论结果仅供参考，不代表供水设备十大品牌网支持认可，投票评论数据可能会延后显示，投票评论无截止日期，若组织恶意刷票刷评论会被系统自动清除。</div>
@@ -300,21 +299,10 @@
 </div>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/av-min.js"></script>
+<script src='js/valine.min.js'></script>
 <script src="js/main.js?v=20180908"></script>
 <script>
-/* 评论 */
-(function(d, s) {
-   var j, e = d.getElementsByTagName(s)[0];
-
-   if (typeof LivereTower === 'function') { return; }
-
-   j = d.createElement(s);
-   j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-   j.async = true;
-
-   e.parentNode.insertBefore(j, e);
-})(document, 'script');
-
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
@@ -322,6 +310,25 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
+</script>
+<script type="text/javascript">
+  // 评论
+  var GUEST = ['nick','mail','link'];
+  var guest = 'nick,mail';
+  guest = guest.split(',').filter(function (item) {
+    return GUEST.indexOf(item)>-1;
+  });
+  new Valine({
+      el: '#comments' ,
+      verify: true,
+      notify: true,
+      appId: 'AhzwlA4uC7OhwDbDoXrPrPtX-gzGzoHsz',
+      appKey: 'DtjIlkoNFJkuUV6RNghCjexi',
+      placeholder: '给你喜欢的品牌评论吧~',
+      avatar:'mp',
+      guest_info:guest,
+      pageSize:'10' || 10,
+  });
 </script>
 </body>
 </html>
